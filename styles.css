@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+}
+
+img{
+    margin-bottom: 8vw;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+
+#ec{
+    text-align: center;
+    font-size: 30px;
+}
+
+h3, span{
+    font-size: 22px;
+}
+
+p{
+    font-size: 18px;
+}
+
+hr{
+    height: 2.5vw;
+    background-color: rgb(146, 245, 252);
+    width: 100%;
+}
+
+@media (min-width:800px) and (max-width:3000px){
+    h1{
+        font-size: 50PX;
+    }
+
+    #ec, h2, span{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 30px;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    hr{
+        background-color: rgb(193, 220, 243);
+    }
+
+    img{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
